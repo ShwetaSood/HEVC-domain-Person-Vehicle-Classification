@@ -1,0 +1,29 @@
+The following files are to be run in the specified fashion
+1. read_cupu.py
+2. mv_interpolation.py
+3. mv_filtering.py
+4. mv_refining.py
+5. small_mv_removal.py
+6. four_connectivity_component_labeling.py
+7. old_object_region_tracking.py (can be compared with object_region_tracking.py but before running this file run 'forward_projection.py')
+8. object_boundary_refinement.py
+9. features.py
+10. kmeans.py
+11. training_and testing.py
+12. accuracy.py
+
+Helper files:
+1. read_cupu_org.py - reads decoder files but doesn't generate spatial 4x4 mapping
+2. read_spatial.py - helps in writing output images of any step
+3. comparison_images.py - helps in comparing any two output files
+
+Optional files to be run:
+1. object_region_tracking.py - was corrected version but didn't help much for highway, can see for other videos. 
+	Corrections were:
+	a. The range was change from t-3 to t+3 to t-4 to t+4
+	b. The projection formula was changed to accommodate negative motion vector. Taking sign of vector separately
+	c. Forward projection to do t to t+4, was done such that motion  vectors store information of forward frames using forward_projection.py
+	d. assertion to check projection>=0 and projection< height/width
+
+2. forward_projection.py - used to calculate forward projection of a frame (t to t+4). By storing motion vectors of t+1 (which are wrt to t) in t frame, so on and so forth.
+Note: Motion vectors for a frame are originally, displacement of a reference frame wrt to current frame.

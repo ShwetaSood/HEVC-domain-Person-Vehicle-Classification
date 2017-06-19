@@ -1,0 +1,135 @@
+------------------PEDESTRIAN DATASET-------------------------------
+
+
+atrium_1
+
+mv_interpolation
+mv_filtering 367 s
+mv_refining 128 s
+small_mv_removal 58 s
+four connectivity 11 s
+object tracking 0 s
+boundary refinement
+
+atrium_2
+
+mv_interpolation
+mv_filtering 632 s
+mv_refining 116 s
+small_mv_removal 96 s
+four connectivity 21 s
+object tracking 2 s
+boundary refinement
+
+atrium_3
+
+mv_interpolation
+mv_filtering 652 s
+mv_refining 124 s
+small_mv_removal 102 s
+four connectivity 17 s
+object tracking 6 s
+boundary refinement
+
+data_0053
+
+mv_interpolation
+mv_filtering 520 s
+mv_refining 95 s
+small_mv_removal 85 s
+four connectivity 25 s
+object tracking 0 s
+boundary refinement
+
+data_191
+
+mv_interpolation
+mv_filtering 261 s
+mv_refining 53 s
+small_mv_removal 45 s
+four connectivity 8 s
+object tracking 1 s
+boundary refinement
+
+data_0216
+
+mv_interpolation
+mv_filtering 437 s
+mv_refining 87 s
+small_mv_removal 72 s
+four connectivity 13 s
+object tracking 1 s
+boundary refinement
+
+hall_monitor
+
+mv_interpolation
+mv_filtering 652 s
+mv_refining 100 s
+small_mv_removal 80 s
+four connectivity 14 s
+object tracking 7 s
+boundary refinement
+
+pedestrians
+
+mv_interpolation 73 s
+mv_filtering 1840 s
+mv_refining 302 s
+small_mv_removal 239 s
+four connectivity 45 s
+object tracking 4 s
+boundary refinement
+
+
+------------------HIGHWAY DATASET-------------------------------
+
+highway
+
+mv_interpolation 127 s
+mv_filtering 2859 s
+mv_refining 413 s
+small_mv_removal 345 s
+four connectivity 65 s
+object tracking 107 s
+boundary refinement
+
+sherbrooke_1
+
+mv_interpolation 16 s
+mv_filtering 316 s
+mv_refining 108 s
+small_mv_removal 47 s
+four connectivity 9 s
+object tracking 17 s
+boundary refinement
+
+sherbrooke_2
+
+mv_interpolation 28 s
+mv_filtering 579 s
+mv_refining 110 s
+small_mv_removal 93 s
+four connectivity 15 s
+object tracking 7 s
+boundary refinement
+
+sherbrooke_3
+
+mv_interpolation 41 s
+mv_filtering 932 s
+mv_refining 192 s
+small_mv_removal 146 s
+four connectivity 24 s
+object tracking 48 s
+boundary refinement
+
+sherbrooke_4
+
+mv_interpolation 23 s
+mv_filtering 515 s
+mv_refining 121
+small_mv_removal 75 s
+four connectivity 12 s
+object tracking 12 s
+boundary refinement

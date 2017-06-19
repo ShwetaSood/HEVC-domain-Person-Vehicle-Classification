@@ -1,0 +1,86 @@
+{
+"Pedestrian_dataset":{
+
+	"atrium_1":{
+
+	"width": 800,
+	"height": 600,
+	"no_frames": 47
+	},
+	"atrium_2":{
+
+	"width": 800,
+	"height": 600,
+	"no_frames": 73
+	},
+	"atrium_3":{
+
+	"width": 800,
+	"height": 600,
+	"no_frames": 75
+	},
+	"data_0053":{
+
+	"width": 1224,
+	"height": 368,
+	"no_frames": 68
+	},
+	"data_0191":{
+
+	"width": 1224,
+	"height": 368,
+	"no_frames": 38
+	},
+	"data_0216":{
+
+	"width": 1224,
+	"height": 368,
+	"no_frames": 59
+	},
+	"hall_monitor":{
+
+	"width": 352,
+	"height": 288,
+	"no_frames": 300
+	},
+	"pedestrians":{
+
+	"width": 360,
+	"height": 240,
+	"no_frames": 1099
+	}
+},
+"Vehicle_dataset":{
+
+	"highway":{
+
+		"height": 240,
+		"width": 320,
+		"no_frames": 1700
+	},
+	"sherbrooke_1":{
+
+		"height": 544,
+		"width": 544,
+		"no_frames": 63
+		},
+	"sherbrooke_2":{
+
+		"height": 544,
+		"width": 520,
+		"no_frames": 113 
+	},
+	"sherbrooke_3":{
+
+		"width": 544,
+		"height": 544,
+		"no_frames": 170
+		},
+	"sherbrooke_4":{
+
+		"width": 632,
+		"height": 280,
+		"no_frames": 153
+	}	
+}
+}
