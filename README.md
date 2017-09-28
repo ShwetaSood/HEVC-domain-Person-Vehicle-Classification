@@ -7,6 +7,6 @@ This implies low computational complexity since the full-scale decoding and reco
 
 Features extracted from compressed bitstream: motion vectors, prediction modes, coding unit depth, DCT coefficients. Feature extraction involved extensive debugging of open source [HM software codec](https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/HM-16.0/) (reference implementation of the HEVC coding)<br><br>
 
-Amongst the models tried, SVM yielded accuracy of 90% for person-vehicle classification.
-Also, deployed a deep learning framework that inputs frame size features processed by a four-stream spatial network. Then these fout-stream features are fused in a recurrent way for learning discriminative motion contexts.
-Accuracy achieved is 70% - the architecture is still being tuned to achieve higher accuracy. 
+Amongst the models tried, SVM yielded accuracy of 90% for person-vehicle classification.<br>
+Also, deployed a deep learning framework that inputs frame size features processed by a four-stream spatial network. Then these four-stream features are fused in a recurrent way for learning discriminative motion contexts.
+Accuracy achieved is 70% - the architecture is still being tuned to achieve higher accuracy.
